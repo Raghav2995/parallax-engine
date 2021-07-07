@@ -3,6 +3,19 @@
   padding: 0;
 }
 
+@font-face {
+font-family: "google ps";
+src: url("fonts/ps.woff") format("woff"),
+src: url("fonts/ps.woff2") format("woff2"),
+
+}
+
+h1 {
+font-family: 'googls ps', Arial, sans-serif;
+font-weight:normal;
+font-style:normal;
+}
+
 .logo{
   width:20%;
   display: flex;
@@ -37,10 +50,35 @@ li a {
 li a:hover {
   background-color: #111;
 }
-
 #search{
   padding: 5px;
   font-size: 17px;
   border: 2px solid grey;
   border-radius: 9px;
+}
+
+.primary {
+	margin-top: 25vh;
+	margin-bottom: 0;
+	text-align: center;
+	line-height: 1.4;
+	font-weight: 650;
+}
+
+.secondary {
+	text-align: center;
+	font-weight: 650;
+}
+
+.gradiented {
+	background: linear-gradient(to left bottom, #ef27df, #ff8c1b);
+	animation: gradient 20s ease infinite;
+}
+
+.gradiented_text {
+	background: linear-gradient(to left bottom, #ef27df, #ff8c1b);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: gradient 20s ease infinite;
 }
