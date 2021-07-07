@@ -7,7 +7,8 @@
 font-family: "google ps";
 src: url("fonts/ps.woff") format("woff"),
 src: url("fonts/ps.woff2") format("woff2"),
-
+    font-weight: normal;
+    font-style: normal;
 }
 
 h1 {
