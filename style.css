@@ -27,6 +27,12 @@ src: url("fonts/ps.woff2") format("woff2");
 .body {
   font-family: "ps"
   src: url("fonts/ps.woff") format("woff")
+  margin: 0;
+  background: linear-gradient(to bottom, red 60%, blue 0%);
+
+  height:100vh;
+  text-align:center;
+  color:#fff;
 }
 
 .logo{
@@ -84,7 +90,7 @@ li a:hover {
 }
 
 .gradiented {
-	background: linear-gradient(to left bottom, #ef27df, #ff8c1b);
+	background: linear-gradient(to left bottom, #a9a9a9, #000000);
 	animation: gradient 20s ease infinite;
 }
 
@@ -93,7 +99,7 @@ li a:hover {
   src: url("fonts/ps.woff") format("woff");
   font-weight:normal;
   font-style:normal;
-	background: linear-gradient(to left bottom, #ef27df, #ff8c1b);
+	background: linear-gradient(to left bottom,  #a9a9a9, #000000);
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
