@@ -105,3 +105,22 @@ li a:hover {
 	-webkit-text-fill-color: transparent;
 	animation: gradient 20s ease infinite;
 }
+.control-group {
+  margin-bottom: 15px;
+}
+.form {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.white {
+    color: #fff;
+}
+.container p {
+    font-style: normal !important;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 0px;
+}
+.theme-selector {
+  display: none;
+}
