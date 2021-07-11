@@ -6,6 +6,30 @@ html{
 	scroll-behaviour:smooth;
 }
 
+.accordion {
+  background-color: #87ceef;
+  color: #000000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: #87ceef;
+  overflow: hidden;
+}
+
 @font-face {
 font-family:"ps";
 src: url("fonts/ps.woff") format("woff");
@@ -19,9 +43,16 @@ src: url("fonts/ps.woff2") format("woff2");
   src: url("fonts/ps.woff") format("woff");
   font-weight:normal;
   font-style:normal;
+  background: linear-gradient(to left bottom, #87CEEB, #0000ff);
 }
 .div {
   font-family: ps;
+  background: linear-gradient(to bottom, red 60%, blue 0%);
+}
+
+.div1 {
+  font-family: ps;
+  background: linear-gradient(to bottom, red 60%, blue 0%);
 }
 
 .body {
@@ -99,7 +130,7 @@ li a:hover {
   src: url("fonts/ps.woff") format("woff");
   font-weight:normal;
   font-style:normal;
-	background: linear-gradient(to left bottom,  #a9a9a9, #000000);
+	background: linear-gradient(to left bottom,  #00000f, #000000);
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
